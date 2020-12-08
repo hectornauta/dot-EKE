@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>dot-EKE</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1271</width>
+      <height>671</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>9</number>
+    </property>
+    <widget class="QWidget" name="tabReglas">
+     <attribute name="title">
+      <string>Reglas</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabArboles">
+     <attribute name="title">
+      <string>Árboles de decisión</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabPlanificacion">
+     <attribute name="title">
+      <string>Planificación</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabGeneticos">
+     <attribute name="title">
+      <string>Genéticos</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabBusqueda">
+     <attribute name="title">
+      <string>Búsqueda</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabBayes">
+     <attribute name="title">
+      <string>Naive Bayes</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabPerceptron">
+     <attribute name="title">
+      <string>Perceptrón - MLP</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabHopfield">
+     <attribute name="title">
+      <string>Hopfield - SOM</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabSVM">
+     <attribute name="title">
+      <string>SVM</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tabK">
+     <attribute name="title">
+      <string>k - means y kNN</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,1 +1,2 @@
-dot-EKE
+# dot-EKE
+Aplicación experimental para practicar IA
